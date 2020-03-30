@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Mad Libs</title>
-</head>
-<body>
-    <h1>Mad Libs</h1>
-<div>
-    <form class="form">
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" type="text">
-        </div>
-        <div class="form-group">
-            <label for="person1">Person</label>
-            <input id="person1" type="text">
-        </div>
-        <div class="form-group">
-            <label for="noun">Noun</label>
-            <input id="noun" type="text">
-        </div>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>っっっb
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">Another name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal">An animal</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="exclamation">An exclamation</label>
+            <input id="exclamation" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb">A past tense verb</label>
+            <input id="verb" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun">A noun</label>
+            <input id="noun" class="form-control" type="text">
+          </div>
 
-        <button type="submit" class="btn">Show me my story!</button>
-    </form>
-</div>
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
 
-    <p id="story">The <span class="name"> </span>final story Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet esse corrupti inventore dolorem, sequi ullam adipisci sit, suscipit libero, error soluta est odit mollitia nihil sed dolores nulla! Eum ab tenetur <span class="person1"></span> pariatur ducimus eaque fugit vitae mollitia, cumque aut quia vero ex asperiores, laboriosam animi nemo? Dolores ab veniam quas, molestiae in id fuga voluptate nesciunt fugit nulla blanditiis! Mollitia nesciunt suscipit error aliquam vel <span class="noun"></span>iste ducimus, accusamus fuga animi accusantium perferendis, sed nihil voluptates odit magni ullam possimus dolores sapiente repudiandae recusandae blanditiis eos. Animi tempore eveniet voluptates, neque eos facilis eum est exercitationem rem ipsum, sequi architecto.</p>
-</body>
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>
+One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.
+</p>
+      </div>
+    </div>
+  </body>
 </html>
